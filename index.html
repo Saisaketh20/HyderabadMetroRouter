@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hyderabad Metro Paths</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hyderabad Metro Paths</h1>
+        <div class="form-container">
+            <label for="source">Source Station:</label>
+            <select id="source">
+                <!-- Populate with station options -->
+                <option value="0">Station 0</option>
+                <option value="1">Station 1</option>
+                <option value="2">Station 2</option>
+                <option value="3">Station 3</option>
+                <option value="4">Station 4</option>
+                <option value="5">Station 5</option>
+                <!-- Add more options as needed -->
+            </select>
+            <label for="destination">Destination Station:</label>
+            <select id="destination">
+                <!-- Populate with station options -->
+                <option value="0">Station 0</option>
+                <option value="1">Station 1</option>
+                <option value="2">Station 2</option>
+                <option value="3">Station 3</option>
+                <option value="4">Station 4</option>
+                <option value="5">Station 5</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <button onclick="showPaths()">Find Paths</button>
+        </div>
+
+        <div id="paths-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
